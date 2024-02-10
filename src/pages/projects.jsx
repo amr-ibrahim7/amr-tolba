@@ -91,6 +91,7 @@ export default function Projects() {
                 {projects.map((project) => {
                   return (
                     <motion.article
+                      key={project.id}
                       layout
                       initial={{ transform: 'scale(0)' }}
                       animate={{ transform: 'scale(1)' }}
