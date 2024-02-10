@@ -108,7 +108,7 @@ export default function Newsletter() {
         </SubmitButton>
       </div>
       <Button
-        href="https://drive.google.com/uc?export=download&id=1VvbqgtNur-t5ezgeJ8jccFD1J_Odn29v"
+        href="https://drive.google.com/uc?export=download&id=15zUPxWvqbRxrcZucdux_Y0l_G1hH3brz"
         target="_blank"
         variant="secondary"
         className="group mt-6 w-full"
