@@ -1,13 +1,17 @@
 // projects
+import Tafawq from '@/images/projects/Tafawq.png'
+import car1 from '@/images/projects/car1.png'
+import eC1 from '@/images/projects/eC1.png'
+import eC2 from '@/images/projects/eC2.png'
+import eat1 from '@/images/projects/eat1.png'
 import furniture from '@/images/projects/furnture.png'
-import pizza from '@/images/projects/pizza.png'
-import space from '@/images/projects/space.png'
 import music from '@/images/projects/music.png'
-import sip from '@/images/projects/sip.png'
 import nike from '@/images/projects/nikee.png'
+import pizza from '@/images/projects/pizza.png'
+import sip from '@/images/projects/sip.png'
+import space from '@/images/projects/space.png'
 import weather from '@/images/projects/weather.png'
 import wild from '@/images/projects/wild_oasis.png'
-import Tafawq from '@/images/projects/Tafawq.png'
 // projects
 export const projectsNav = [
   {
@@ -24,6 +28,42 @@ export const projectsNav = [
   },
 ]
 export const projectsData = [
+  {
+    id: '10',
+    image: eC1,
+    link: {
+      href: 'https://ella-c.web.app/',
+      label: 'https://github.com/amr-ibrahim7/ella-commerce',
+    },
+    name: 'Ella Commerce',
+    description:
+      'A modern e-commerce web application built using Vue 3 with Pinia for state management and Axios for fetching product data from external APIs. ',
+    category: 'Web Basic',
+  },
+  {
+    id: '11',
+    image: car1,
+    link: {
+      href: 'https://car-rent-iuqn5ehk4-amr-ibrahim7s-projects.vercel.app/',
+      label: 'https://github.com/amr-ibrahim7/car-rent',
+    },
+    name: 'Car Showcase for Rent',
+    description:
+      'Car Showcase for Rent is a website where users can easily search for and rent cars. The platform provides all the necessary information about available cars, and the booking process is quick and straightforward, making car rental more accessible than ever.',
+    category: 'Web Basic',
+  },
+  {
+    id: '12',
+    image: eat1,
+    link: {
+      href: 'https://eatsplitwithfriends.netlify.app/',
+      label: 'https://github.com/amr-ibrahim7/eatSplitWithFriends/',
+    },
+    name: 'Eat & Split the Bill',
+    description:
+      'Eat & Split: Simplify Bill Splitting with Friends: Ditch the hassle of manual calculations and divide your restaurant bills effortlessly with Eat & Split, a web app built with React. This user-friendly tool streamlines the bill-splitting process, ensuring fair and transparent settlements among friends and colleagues.',
+    category: 'Web Basic',
+  },
   {
     id: '1',
     image: furniture,
@@ -130,20 +170,23 @@ export const projectsData = [
 ]
 export const projects = [
   {
-    name: 'Nike Shoes Ecommerce',
+    name: 'Ella Commerce',
     description:
-      'This is an open source e-commerce nike shoes build with Next.js. ',
-    link: { href: '#', label: 'github.com' },
-    logo: nike,
+      'A modern e-commerce web application built using Vue 3 with Pinia for state management and Axios for fetching product data from external APIs.',
+    link: {
+      href: 'https://ella-c.web.app/',
+      label: 'https://github.com/amr-ibrahim7/ella-commerce',
+    },
+    logo: eC2,
   },
   {
-    name: 'The Wild Oasis hotel',
+    name: 'Car Showcase for Rent',
     description:
-      'The Wild Oasis hotel management app is a full-featured React web application that allows hotel employees to manage cabins, bookings, and guests. The app uses Supabase for its backend and implements a variety of advanced React techniques, such as HOCs, the Compound Component Pattern, and React Query.',
+      'Car Showcase for Rent is a website where users can easily search for and rent cars. The platform provides all the necessary information about available cars, and the booking process is quick and straightforward, making car rental more accessible than ever.',
     link: {
-      href: 'https://vimeo.com/859576638?share=copy',
-      label: 'Application Video',
+      href: 'https://car-rent-iuqn5ehk4-amr-ibrahim7s-projects.vercel.app/',
+      label: 'https://github.com/amr-ibrahim7/car-rent',
     },
-    logo: wild,
+    logo: car1,
   },
 ]

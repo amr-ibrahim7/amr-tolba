@@ -1,9 +1,9 @@
-import React from 'react'
 import { useForm, ValidationError } from '@formspree/react'
-import Link from 'next/link'
 import clsx from 'clsx'
-import { Button } from './Button'
+import Link from 'next/link'
 import { useRouter } from 'next/router'
+import React from 'react'
+import { Button } from './Button'
 const variantStyles = {
   primary:
     'bg-zinc-800 font-semibold text-zinc-100 hover:bg-zinc-700 active:bg-zinc-800 active:text-zinc-100/70 dark:bg-zinc-700 dark:hover:bg-zinc-600 dark:active:bg-zinc-700 dark:active:text-zinc-100/70',
@@ -108,7 +108,7 @@ export default function Newsletter() {
         </SubmitButton>
       </div>
       <Button
-        href="https://drive.google.com/uc?export=download&id=15zUPxWvqbRxrcZucdux_Y0l_G1hH3brz"
+        href="https://drive.google.com/uc?export=download&id=1c3_4UiFBLvFbpv94k8BOnQPpLyCyfQHT"
         target="_blank"
         variant="secondary"
         className="group mt-6 w-full"
