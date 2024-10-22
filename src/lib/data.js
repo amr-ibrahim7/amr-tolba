@@ -1,5 +1,5 @@
 // projects
-import Tafawq from '@/images/projects/Tafawq.png'
+// import Tafawq from '@/images/projects/Tafawq.png'
 import car1 from '@/images/projects/car1.png'
 import eC1 from '@/images/projects/eC1.png'
 import eC2 from '@/images/projects/eC2.png'
@@ -169,17 +169,17 @@ export const projectsData = [
       'The Wild Oasis hotel management app is a full-featured React web application that allows hotel employees to manage cabins, bookings, and guests. ',
     category: 'React',
   },
-  {
-    id: '9',
-    image: Tafawq,
-    link: {
-      href: 'https://www.figma.com/file/SEaoUtFTYHi1ZRnBaJpNX2/Master-UI-Create-Dynamic-User-Interfaces-Free-Version?type=design&node-id=2%3A452&mode=design&t=MnVefR5lmPHrEkHL-1',
-      label: '#',
-    },
-    name: ' Tafawq',
-    description: 'Tafwqq',
-    category: 'UI&UX',
-  },
+  // {
+  //   id: '9',
+  //   image: Tafawq,
+  //   link: {
+  //     href: 'https://www.figma.com/file/SEaoUtFTYHi1ZRnBaJpNX2/Master-UI-Create-Dynamic-User-Interfaces-Free-Version?type=design&node-id=2%3A452&mode=design&t=MnVefR5lmPHrEkHL-1',
+  //     label: '#',
+  //   },
+  //   name: ' Tafawq',
+  //   description: 'Tafwqq',
+  //   category: 'UI&UX',
+  // },
 ]
 export const projects = [
   {
