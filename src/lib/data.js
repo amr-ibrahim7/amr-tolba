@@ -5,6 +5,7 @@ import eC1 from '@/images/projects/eC1.png'
 import eC2 from '@/images/projects/eC2.png'
 import eat1 from '@/images/projects/eat1.png'
 import furniture from '@/images/projects/furnture.png'
+import gym1 from '@/images/projects/gym1.png'
 import music from '@/images/projects/music.png'
 import nike from '@/images/projects/nikee.png'
 import pizza from '@/images/projects/pizza.png'
@@ -62,6 +63,18 @@ export const projectsData = [
     name: 'Eat & Split the Bill',
     description:
       'Eat & Split: Simplify Bill Splitting with Friends: Ditch the hassle of manual calculations and divide your restaurant bills effortlessly with Eat & Split, a web app built with React. This user-friendly tool streamlines the bill-splitting process, ensuring fair and transparent settlements among friends and colleagues.',
+    category: 'Web Basic',
+  },
+  {
+    id: '13',
+    image: gym1,
+    link: {
+      href: 'https://gym-types.vercel.app/',
+      label: 'https://github.com/amr-ibrahim7/gym-types',
+    },
+    name: 'Gym',
+    description:
+      'Gym Typescript is a landing page built using Vite and TypeScript, designed to provide an engaging and responsive user experience for fitness enthusiasts. This template provides a minimal setup to get React working in Vite with Hot Module Replacement (HMR) and ESLint integration.',
     category: 'Web Basic',
   },
   {
